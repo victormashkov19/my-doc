@@ -1,0 +1,55 @@
+phone : +45 60609992
+
+Teamviewer Access:
+
+ID: 1 001 457 016
+
+PW: PC289Login
+
+PC289
+
+ID: Jasmina
+
+PW: JVL4Motors
+
+--- Mail -----------------------------
+Work: jva@jvl.dk
+Private: bufasfedte@gmail.com
+--------------------------------------
+
+
+Motors
+https://www.jvl.dk/758/mis-motor-integrated-stepper-motors
+
+-- with Label ---
+MIS17_S
+MIS17_Q
+MIS23_Q
+MIS23_S
+MIS34_
+MIS171_Motor
+MIS342_motor
+-- 
+ We will later today come up with some images of motors without labels, and see what it says
+ 
+ All the new ones are in the test rig. 
+ The test rig is still a prototype, but camera and motor are fixed in their final (ish) positions. 
+ Bottom line, what the camera sees is the same.  
+ The first two files, are not, that just from my office table. 
+ So there should not be much variation any more. 
+ The capture process is still manual, but that will be integrated in the test rig software (Build in LabView) 
+ ..including your app, so LabView will call the python code. 
+ Something like this:
+C:\>python app_1.0.py
+ MIS17_Q 
+ ...we can send some arguments. 
+ The app.py
+ should run in a loop, like:
+'P' Process image
+'Q' Quit
+..and output
+{ JSON bla bla} 
+ So it process an image lets say '1.jpg' every time. Our camera capture program will save 1 image in the app_1.0.py
+ folder, with the filename '1.jpg' 
+User Avatar
+ I hope it makes sense. 

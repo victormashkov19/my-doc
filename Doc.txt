@@ -1,0 +1,91 @@
+yes use the outside circle hash marks to ffnd the center of the circle - then seeing the small plus sign (which is actually on the opposite of the paper) and find out how many mm it is out of alignment.  Normal allignment should be 2mm variance off the center mark, so see how many many mm out of allignment.,  Stand by and will send you the mm measurements of the circle and the plus sign 
+
+Yes, (1) take quad photo provided,  (2) isolate the target (3) identify the PLUS sign, (4) measure the differenation, (5) express in microns, (6) output small image as proof file 
+it needs to be fast project, we need to upload in mass and it auto run, it needs to keep the naming culutre and just tag on an extension at the end so we can always find the original image in our database. 
+ We will upload folders from a drive and we need to have in the same structure where the file came from. You would just add an extension on the file name to express the calibration number like \103m 
+ let me see if I can find a naming convention sample 
+User Avatar
+ so when the program runs there is the original file and it drops in the new smaller calibrarion noted image. thus 10,000 images become 20,000 image total, since we have to show proof 
+ 
+ 
+ https://sendgb.com/Vn8ioRWbuFH
+ 
+ when calibration is near perfect the (+) in the back of the paper (shown by backlight) will line up with the cross-haris on the front circle sighting device.
+However, we have some machines which are out of print calibration and we need to know by how far out of alignment in microns.
+we need to measure in microns (we can give you the exact measurements of what the SIGHTING TARGET and the (+) are and we need to know "how far out of calibration" the (+) and then drop the data into 10 data bins of measurement ranges.
+Need a program (python) which (1) takes in uploaded folders,
+(2) runs extraction protocol,
+(3) keeps naming culture,
+(4) places new images in a folder based on % out of calibration,
+(5) while assigning a new name which has digits at the end designating out of calibration % and 
+(6) drops into a spreadsheet and allows for reports to be run based on totals
+
+As the program you are developing creates or Files new images, you are to use our naming culture so we can track the original source image in our databases,
+but you assign a NEW CODE to tag at the end so we can know "what was done to the image or what is the new image of?"
+
+It is important we are able to track every source image back to our digital databases.
+
+We seek super high-speed extract, measure, and data binning and we need this to be designed where the program can be put on a local server to possess the images or operate as a virtural process in the cloud.
+
+This is being built to process millions of images uploaded and tracked by batch and do keep the naming culture so the "extracted and measured" new image can always be traced back to its original native file.
+
+
+Ok, downloaded the file. Looks very good.  Noticed some of the further ones out of calibration did not register (failed) how can we correct those?  Any which ultimately do not read can be dropped into a "review file".  Next, I would guess is to make sure the naming culture works and it tracks where each one comes from. We need to capture the proof file (showing how far out of calibration) and then we need to have the pixels expressed as a % out of calibration. I will send you a calibration microscope shot and you should be able to use the measurements to adjust your files to understand the percentages?  Grea job.  Do you have an average processing time? 
+each tick mark is a 100% deviation of where it should be located.  If it appears 3 marks say NW then it is 300% out of calibration NW.  Think of it as the face of a compass.
+
+as you look at this picture, and to the center is just about 13 marks up, thus this calibration  is approximately 1300% out of calibration North 
+ let me get you exact measurements 
+You could either do a pixel conversion or use this as a guide and create a measurement gird for obtaining the number % 
+Yes, the perfect calibration starts at zero marks, then a document can have 1mm -2mm calibration allowance and be considered .ALLOWABLE anything over 2mm is a warning, 3mm is ALERT and 3.5 and up is OUT OF COMPLIANCE  .
+
+
+lets do this on foldes, it seems the best is to only have 3 folders 
+ 1.  ALLOWABLE : that is anything below 3 microns 
+ 2.  ALERT : second folder anything over 3 microns but still under 7 microns
+ 3.  ERROR is folder 3 and that is 7 microns to under 10 microns 
+ 4.  FAILURE is 10 microns and above 
+ 5.  UNDETERMINED
+ so four folders, will this work for labeling and ranges?
+ 
+ "Calibrations Compliance"
+ 
+ 
+ ************************************************************
+ Find a way to identify and categorize how many different paper stocks used.  
+ We have taken same zoom images of numerous classes of white paper at different weight. But we need to categorize what we think the paper stocks MAY be based on those samples. So we need a way to zoom up better? Maybe measure fibers seem or color or brightness density and drop into categories.  It won't be exact but it gives us an idea of potential number of different papers used to print on. It would use the very same photos you used for calibration.  Each image of the 4 in the photo quad are the same see exact sheet of paper .
+
+Yes we have to classify.  Attached is one image from a quad, and we applied several filters to show the various ways to could be looked at under computer vision or something.  
+But we need to find some way to look at the image of the paper between the four quads and make a decsision to put them into a data bid and come up with our classification. 
+We could have as many as 20 or even 50 different paper types used when there is supposed to be only 2.  
+So we have to find a way research it from the images we have. 
+
+we can only guess, the printers are no owining up to what they really used, since they were supposed ot use only two types, but to save costs they used unauthorized papers.  We have taken zoomed shots of all the suspected types of papers, but it is only our guess thus we need to fiund a way to classify and mayeb rate to the best pobile nearest candidate.   
+ Let me show you some possible samples 
+we have about 20 classifications which we can provide, 11 or 12 attached here.  
+We KNOW what two are and should be for sure and can measure against those, but then all others need to be found in a way to suggest what they might be.  
+We know it is not exact but we need to find the best way to classify them. 
+ So we would have here are 4 (2 types shot 2 different ways) and then 18 we know are NOT THEM.
+ but here are a few shots since they could of have been used) and then we have to attempt to classify from there.
+ its a shot for the sheet and then the sheet with printing on KNOWN sotck .
+ 
+ samples of stock.zip
+ filters.zip
+ 
+ ok, maybe a way to mimick this measurement??? or we have sevearl measurements? 
+ https://brixtonchrome.com/pages/understanding-paper-fluorescence-advanced-version
+ 
+ https://brixtonchrome.com/pages/understanding-paper-fluorescence-advanced-versionT
+ 
+ 
+ OK here are a few to look at to confirm we get you what you need.  First we can shot in the following MB file sizes: 3m 2048x1536 or 5m 2592x1944 or 8m 3264x2448 or 10m 3648x2736 or finally 12m 4032x3024 
+ Files can he High WQuality, Standard or Encnomic' 
+ and sharpness can be intensive, standard or soft 
+ this zip is ONE grade of the paper.  Look over these and let us kwht WHAT settings you want fo each paper based on our setting and we will gatehr and classify them in folder by your specs.   
+ sending google drive link 
+User Avatar
+ https://drive.google.com/file/d/149VdPBS0HXBVK6AfXZpv5A-6alUnWhKq/view?usp=sharing
+ 
+ 
+ """""""""""""""""""""""""""""""""""""""""""""
+ 
+ mail : nationaltreasuresociety@gmail.com

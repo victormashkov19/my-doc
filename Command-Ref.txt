@@ -1,0 +1,23 @@
+********************************************************************************
+- Python Virtual Env create and activate, deactive
+	Installing virtualenv
+	[Mac, Linux] 	python3 -m pip install --user virtualenv
+	[Windows ]		python -m pip install --user virtualenv
+
+	Creating a virtual environment
+	[Mac, Linux]	python3 -m venv [env name]
+	[Windows]		python -m venv [env name]
+	
+	Activating a virtual environment
+	[Mac, Linux]	source [env name]/bin/activate
+	[Windows]		.\[env name]\Scripts\activate
+	
+	Leaving the virtual environment
+					deactivate
+********************************************************************************	
+
+https://www.tensorflow.org/install/source#gpu
+
+
+
+
