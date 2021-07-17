@@ -1,0 +1,16 @@
+1.
+ We have to extract the data that is pointed out at the left part of this image (OCR) 
+2. 
+We have to detect the face that is pointed out at the right part of this image (face detection: check if in the image there is a face (yes or no answer), metadata of the face (key points face description 
+512D feature vector) 
+3. 
+If in the image there is no a face, we have to send a message with that warning 
+
+-- mail -----------------------
+lcanogiraldo@gmail.com
+
+-- phone ----------------------
++57 301 2415165
+
+-- PayPal ---------------------
+terra1129@gmail.com
